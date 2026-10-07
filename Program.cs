@@ -4,9 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int x = 2;
-            int y = 4;
-            Console.WriteLine(Add(x,y));
+            Console.WriteLine(Add(2,4));
         }
 
         public static int Add(int x, int y)
