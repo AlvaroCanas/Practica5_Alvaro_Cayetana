@@ -21,6 +21,11 @@
 
         public static int Divide(int x, int y)
         {
+            if (y == 0)
+            {
+                Console.WriteLine($"ERROR: division por 0. Input x: {x}, y:{y}");
+                return 0;
+            }
             return x / y;
         }
 
